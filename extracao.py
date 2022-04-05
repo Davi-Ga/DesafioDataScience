@@ -8,3 +8,4 @@ dados.head(10)
 
 profile = ProfileReport(dados, title='Dados de alugueis',html={'style':{'full_width':True}})
 profile.to_notebook_iframe()
+profile.to_file(output_file='/content/drive/My Drive/Pandas Profiling Report — Moradia .html')
